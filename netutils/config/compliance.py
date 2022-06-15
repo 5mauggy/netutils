@@ -13,6 +13,7 @@ parser_map = {
     "cisco_asa": parser.ASAConfigParser,
     "fortinet_fortios": parser.FortinetConfigParser,
     "nokia_sros": parser.NokiaConfigParser,
+    "h3c_comware": parser.ComwareConfigParser,
 }
 
 default_feature = {
